@@ -1,0 +1,48 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: #900c3f;
+    color: #fff;
+    height: 100px;
+}
+
+nav {
+    background-color: burlywood;
+    height: 60px;
+}
+
+section {
+    background-color: darkblue;
+    height: 600px;
+}
+
+article {
+    background-color: orangered;
+    height: 70px;
+}
+
+footer {
+    background-color: lightsalmon;
+    height: 75px;
+}
+
+nav, footer { /* Je sépare les différentes balises à sélectionner par une virgule */
+color: rgb(83, 54, 0);
+}
+
+.jaune {
+    background-color: yellow;   
+}
+
+#noir {
+    background-color: black;
+    color: #fff;
+    text-align: justify;
+    font-size: 25px;
+}
